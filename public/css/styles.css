@@ -11,6 +11,7 @@
 } */
 
 body {
+    
     color : #333333;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     max-width: 650px;
@@ -28,6 +29,8 @@ body {
  
 .main-content {
     flex-grow: 1;
+    background-color: #e6ffff;
+    /* border:  solid black; */
 }
 
 /* footer {
@@ -40,7 +43,7 @@ body {
 footer {
     color: #888888;
     border-top: 1px solid #eeeeee;
-    margin-top : 16px;
+    /* margin-top : 16px; */
     margin-bottom: 16px;
     padding : 16px 210px; 
     background-color:#333333;
@@ -55,6 +58,7 @@ footer {
 
 header{
     margin-top: 16px;
+    border: 1px solid white;
     margin-bottom: 48px;
     padding: 0px 125px;
     background-color:#333333;
